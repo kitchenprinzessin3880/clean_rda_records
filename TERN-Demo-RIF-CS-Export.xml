@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-8</key>
+    <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <service type="assemble" dateModified="2013-01-23T06:18:23Z">
+      <name type="primary">
+        <namePart>TERN Data Discovery Portal</namePart>
+      </name>
+      <description type="brief">&amp;amp;lt;p&amp;amp;gt;The &amp;amp;lt;a href="http://portal.tern.org.au/" target="_blank"&amp;amp;gt;&amp;amp;lt;strong&amp;amp;gt;TERN Data Discovery Portal&amp;amp;lt;/strong&amp;amp;gt;&amp;amp;lt;/a&amp;amp;gt; (TDDP) is a catalogue of research metadata built by regularly harvesting records from the metadata infrastructure of TERN Facility data portals. The TDDP enables users to access a single platform to discover data across all TERN Facility portals. Once suitable metadata are located in the TDDP, users can connect to the TERN Facility data delivery infrastructure to download the data for further offline processing.&amp;amp;lt;/p&amp;amp;gt;
+&amp;amp;lt;p&amp;amp;gt;The TDDP enables researchers to discover different data sets (including soils, terrain, water, satellite images, survey data and species observation records) for the same geographic area, and then to browse, query and extract the data through TERN Facility data delivery infrastructure. The access rights for data are based on the &amp;amp;lt;a href="http://www.tern.org.au/datalicence" target="_blank"&amp;amp;gt;TERN Data Licensing Policy&amp;amp;lt;/a&amp;amp;gt;.&amp;amp;lt;/p&amp;amp;gt;
+&amp;amp;lt;p&amp;amp;gt;The TDDP has been developed in association with the &amp;amp;lt;a href="http://www.ands.org.au/" target="_blank"&amp;amp;gt;Australian National Data Service (ANDS)&amp;amp;lt;/a&amp;amp;gt; and &amp;amp;lt;a href="http://www.qcif.edu.au/" target="_blank"&amp;amp;gt;Queensland Cyber Infrastructure Foundation (QCIF)&amp;amp;lt;/a&amp;amp;gt;. It will establish direct links into national and state environmental monitoring programs, for example the&amp;amp;lt;a href="http://www.environment.gov.au/npei/index.html" target="_blank"&amp;amp;gt; National Plan for Environmental Information&amp;amp;lt;/a&amp;amp;gt;, and programs within &amp;amp;lt;a href="http://www.environment.gov.au/biodiversity/science/nerp/index.html" target="_blank"&amp;amp;gt;the National Environmental Research Program&amp;amp;lt;/a&amp;amp;gt;, and relevant programs in other countries (e.g. &amp;amp;lt;a href="http://neoninc.org/" target="_blank"&amp;amp;gt;NEON&amp;amp;lt;/a&amp;amp;gt;, &amp;amp;lt;a href="https://www.dataone.org/" target="_blank"&amp;amp;gt;DataONE&amp;amp;lt;/a&amp;amp;gt;,&amp;amp;lt;a href="http://www.earthobservations.org/" target="_blank"&amp;amp;gt;Group on Earth Observations&amp;amp;lt;/a&amp;amp;gt;, &amp;amp;lt;a href="http://fluxnet.ornl.gov/" target="_blank"&amp;amp;gt;FLUXNET&amp;amp;lt;/a&amp;amp;gt;)&amp;amp;lt;/p&amp;amp;gt;</description>
+      <identifier type="uri">http://portal.tern.org.au/</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.tern.org.au/</value>
+          </electronic>
+          <electronic type="email">
+            <value>tern.data@uq.edu.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isSupportedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0171</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <accessPolicy>http://portal.tern.org.au/home/accessdata</accessPolicy>
+    </service>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-1</key>
+    <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data............</originatingSource>
+    <collection type="collection" dateModified="2014-03-05T06:09:18Z" dateAccessioned="2014-03-05T06:09:29Z">
+      <name type="primary">
+        <namePart>Australian Terrestrial Ecosystem Research Collection (TERN)</namePart>
+      </name>
+      <description type="brief">&amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;img style="float: right; margin-right: 10px; margin-left: 10px;" src="http://tern.org.au/rs/7/sites/998/custom_files/tpl_images/logo.jpg" alt="" /&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;
+&amp;amp;lt;p&amp;amp;gt;The Terrestria&amp;amp;lt;wbr /&amp;amp;gt;l Ecosystem Research Network (TERN) collection consists of datasets from different ecosystem science discipline&amp;amp;lt;wbr /&amp;amp;gt;s.&amp;amp;lt;br /&amp;amp;gt;The collection covers the Australian geographic region and includes: Australian biophysica&amp;amp;lt;wbr /&amp;amp;gt;l map and remote sensing time-serie&amp;amp;lt;wbr /&amp;amp;gt;s data products, and associated field calibratio&amp;amp;lt;wbr /&amp;amp;gt;n and validation data. Energy, water and carbon dioxide fluxes data from flux towers, current as well as histroical informatio&amp;amp;lt;wbr /&amp;amp;gt;n like flora, fauna and biophysica&amp;amp;lt;wbr /&amp;amp;gt;l processes from plots, sites, and transects across Australian ecosystems&amp;amp;lt;wbr /&amp;amp;gt;, national survey datasets for flora and fauna, high-spati&amp;amp;lt;wbr /&amp;amp;gt;al resolution grids containing key soil attributes and landscape features, and a range of coastal ecosystem datasets.&amp;amp;lt;/p&amp;amp;gt;</description>
+      <rights>
+        <licence type="CC-BY" rightsUri="http://www.tern.org.au/datalicence">TERN-BY; TERN-BY-SA; TERN-BY-ND</licence>
+      </rights>
+      <identifier type="uri">http://portal.tern.org.au/</identifier>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>tern@uq.edu.au</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://portal.tern.org.au</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Goddard Building (Bld #8)&amp;amp;lt;br /&amp;amp;gt;The University of Queensland&amp;amp;lt;br /&amp;amp;gt;St Lucia QLD 4072, Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+      </coverage>
+      <relatedObject>
+        <key>csiro:PartyGroup</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0094</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0171</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-8</key>
+        <relation type="isSupportedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0078</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0501</subject>
+      <subject type="anzsrc-for">0503</subject>
+      <subject type="anzsrc-for">0602</subject>
+      <subject type="anzsrc-for">0406</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="NCRIS">
+    <key>TERN-NC-0</key>
+    <originatingSource type="">https://services.ands.org.au/sandbox/orca............</originatingSource>
+    <activity type="program">
+      <name type="abbreviated">
+        <namePart>TERN</namePart>
+      </name>
+      <name type="primary">
+        <namePart>Terrestrial Ecosystem Research Network</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;A nationally-consistent approach to collecting, managing and sharing time-series datasets is required to meet the needs of terrestrial ecosystem research and natural resource management in Australia. The NCRIS and EIF investments in TERN will establish a national, collaborative infrastructure to enable ecosystem science communities to store, search and analyse long-term data sets on atmospheric, terrestrial, aquatic and coastal environments. The purpose of TERN is to establish the necessary cooperative and data frameworks for a national, collaborative approach to ecosystem infrastructure and research. It will provide the necessary organisational arrangements, networks and methodologies for systematic, coordinated national data collection. TERN will comprise governance, data management and modelling facilities, a collection of ecosystem science data portals and principles for shared use to build on existing infrastructure investments and collaborations. TERN’s objectives are to: * provide a national institutional infrastructure network for terrestrial ecosystem research and management * coordinate national observational networks to provide valuable information about our terrestrial ecosystems and to encourage research collaboration and cooperation nationally * facilitate improved access, including by electronic means, for researchers to quality assured observational data so questions about our environment can be answered * identify future needs, by involving the terrestrial ecosystem research community, for research and strengthen the capability of the terrestrial ecosystem community across Australia so we are better able to respond to questions of national significance.&amp;lt;/p&amp;gt;</description>
+      <description type="brief">&amp;lt;p&amp;gt;TERN (an NCRIS Capability) is a network of ecosystem scientists and infrastructure for the collection, cataloguing, storage and sharing of long-term ecosystem research data sets for science and management applications.&amp;lt;/p&amp;gt;</description>
+      <description type="logo">&amp;lt;p&amp;gt;http://www.auscover.org.au/images/ternlogo2-110.png&amp;lt;/p&amp;gt;</description>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.tern.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ncris.innovation.gov.au/activity/1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedInfo>
+        <title>LTERN Web Site</title>
+        <identifier type="uri">http://www.ltern.org.au</identifier>
+      </relatedInfo>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-23</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data....................</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Australian Ecological Plot Data</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;The Eco-informatics Facility collects ecological “plot” data (including quadrats, transects, pitfall traplines, cage trap arrays, and other systematic collection methods), making this data discoverable and freely accessible at the finest level of detail available, together with extra information about the context of data collection. This opens up vast new opportunities for assessing re-purpose and enabling informed re-use of data. In doing this, the Australian ecosystem science community is able to achieve greater returns on the investment in data collection and also use the wealth of data available to address national challenges in ecology.&amp;lt;/p&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>dfUv1CF6zf7yVF7170MfV51bVkMWMiSQnCbf5GbuM9TyEQpBH1Hs</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-24</key>
+    <originatingSource type="">TERN National Collection (TERN-NC)........</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Australian Supersite Network Data Collection </namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;A SuperSite is an intensive ecosystem observatory set up to examine the status and processes of one of Australia’s many ecosystems. Each SuperSite comprises a main field site that takes vegetative, faunal and biophysical measurements and works over at least one gradient (topographical or ecological) transect in a typical and important biome in Australia. The scale of the SuperSites (10–200 km) is larger than a plot but smaller than a Long-term Ecological Research (LTER) plot system. A SuperSite uses existing and recently deployed environmental monitoring installations to collect comprehensive sets of long-term ecosystem data of high temporal and spatial resolution. Core research conducted at a SuperSite includes measurements from micrometeorological flux stations (OzFlux), plant physiological measurements, as well as long-term vegetation and fauna monitoring.&amp;lt;/p&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-2</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-seo" termIdentifier="ECOSYSTEM ASSESSMENT AND MANAGEMENT">9605</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Coastal Ecosystems Facility">
+    <key>dixVvbpqjA1te4wsPieS6zGgZqwv0qS3zfOVh4bqu2KzW7RCfWlc</key>
+    <originatingSource type="">https://demo.ands.org.au/registry//orca/register_my_data........</originatingSource>
+    <activity type="program" dateModified="2013-11-29T06:00:38Z">
+      <name type="primary">
+        <namePart>Australian Coastal Ecosystems Facility</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>ACEF</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>TERN Coasts</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The Australian Coastal Ecosystems Facility (ACEF) collects and distributes key coastal datasets for use in policy and management decisions about the protection and use of Australia's coastal assets, both marine and freshwater.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;ACEF aims to link past and ongoing research, future data collection, and the integration of knowledge by:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;establishing a coastal community of practice to bring together researchers, managers, industry and the community to identify key coastal datasets, improve technologies, and identify funding opportunities;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;identifying national datasets that need to be collected, and funding strategic research that addresses key gaps in datasets;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;providing an overview of coastal research efforts and early findings around Australia, and&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;enabling better digital access to observational data, and to analysis and visualisation methods.&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;</description>
+      <description type="logo">&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://acef.tern.org.au/sites/all/themes/acef/logo.png&amp;quot; alt=&amp;quot;ACEF logo&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;</description>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>team@acef.tern.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Contributor:CSIRO</key>
+        <relation type="isManagedBy"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-ACEF</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>102.100.100/10064</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/5935f698-5653-447b-a3a9-8a4934eb76f7</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/cc7e4fb0-ae3c-40b9-9af3-c29d575bc1bc</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/da023c22-08a7-46a5-a415-c7bc29d213f5</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/3ea97d80-30d6-4d6e-99a8-de5b199e9424</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/1876ed37-3503-434e-82c3-0f81fa4eb64f</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/7dff54b8-1612-4fbf-9751-40178f1087ce</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/1c77a89f-a315-487d-bd35-3345a6f9c48f</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050206</subject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050209</subject>
+      <relatedInfo type="website">
+        <identifier type="uri">http://acef.tern.org.au</identifier>
+      </relatedInfo>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2011-06-30T14:00:00Z</startDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Australian Coastal Ecosystems Facility">
+    <key>TERN-NC-21</key>
+    <originatingSource type="">https://demo.ands.org.au/registry//orca/register_my_data................................................</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Australian Coastal Ecosystems Data Collection</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>ACEF</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>TERN Coasts</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The Australian Coastal Ecosystems Facility (ACEF) collects and distributes key coastal datasets for use in policy and management decisions about the protection and use of Australia's coastal assets, both marine and freshwater.&amp;lt;/p&amp;gt;</description>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>team@acef.tern.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>csiro:PartyGroup</key>
+        <relation type="isManagedBy"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>102.100.100/10064</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/1c77a89f-a315-487d-bd35-3345a6f9c48f</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/7dff54b8-1612-4fbf-9751-40178f1087ce</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/da023c22-08a7-46a5-a415-c7bc29d213f5</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050206</subject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050209</subject>
+      <relatedInfo type="website">
+        <identifier type="uri">http://acef.tern.org.au</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="OzFlux: Australian and New Zealand Flux Research and Monitoring">
+    <key>TERN-NC-22</key>
+    <originatingSource>ANDS National Collections Manual Entry </originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>OzFlux Ecosystem Exchange Data Collection</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.ozflux.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <subject type="gcmd">In Situ Land-based Platforms - Fixed Observation Stations</subject>
+      <subject type="gcmd">In Situ Land-based Platforms - Ground-based observations</subject>
+      <subject type="gcmd">In Situ Land-based Platforms - Weather stations/Networks</subject>
+      <subject type="anzsrc-for">0401</subject>
+      <subject type="anzsrc-for">0406</subject>
+      <subject type="anzsrc-for">0501</subject>
+      <subject type="anzsrc-for">0503</subject>
+      <subject type="anzsrc-for">0602</subject>
+      <description type="full" xml:lang="en">
+                &amp;lt;p&amp;gt;
+                OzFlux, a facility of the Terrestrial Ecosystem Research Network (TERN), collects
+                nationally consistent observations of energy, carbon and water exchange between the atmosphere and 
+                key Australian and New Zealand ecosystems.
+                &amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;
+                OzFlux is part of an international network of over 500 flux stations that is designed to provide continuous, long-term micro meteorological measurements to monitor the state of
+                ecosystems globally.
+                &amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;
+                The OzFlux purpose is:
+                &amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li&amp;gt;
+                To understand mechanisms controlling exchanges of carbon, water vapour and energy between terrestrial ecosystems and the atmosphere over a range of time and space scales.
+                &amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;
+                To provide data on carbon and water balances of key ecosystems for model testing.
+                &amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;
+                To provide information to validate estimates of net primary productivity, evaporation, and energy absorption using remotely sensed radiance data.
+                &amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;
+                To provide data to validate new developments in micrometeorological theory for fluxes and air flows in complex terrain.
+                &amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+            </description>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>MON399d1cdc-a788-4a05-9f01-d3dcbcafdf8d</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="OzFlux: Australian and New Zealand Flux Research and Monitoring">
+    <key>MON399d1cdc-a788-4a05-9f01-d3dcbcafdf8d</key>
+    <originatingSource type="">http://www.ozflux.org.au........</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>OzFlux Ecosystem Exchange Research Network</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;OzFlux, a facility of the Terrestrial Ecosystem Research Network (TERN), has been established to provide the Australian, New Zealand and global ecosystem research communities with nationally consistent observations of energy, carbon and water exchange between the atmosphere and key Australian and New Zealand ecosystems.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;OzFlux is part of an international network of over 500 flux stations that is designed to provide continuous, long-term micro meteorological measurements to monitor the state of ecosystems globally.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The OzFlux purpose is:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;To understand mechanisms controlling exchanges of carbon, water vapour and energy between terrestrial ecosystems and the atmosphere over a range of time and space scales.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;To provide data on carbon and water balances of key ecosystems for model testing.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;To provide information to validate estimates of net primary productivity, evaporation, and energy absorption using remotely sensed radiance data.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;To provide data to validate new developments in micrometeorological theory for fluxes and air flows in complex terrain.&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;</description>
+      <identifier type="local">MON399d1cdc-a788-4a05-9f01-d3dcbcafdf8d</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.ozflux.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="text">CSIRO Marine and Atmospheric Research, Pye Laboratory, Clunies Ross Street, ACTON, ACT 2600</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <subject type="gcmd">In Situ Land-based Platforms - Fixed Observation Stations</subject>
+      <subject type="gcmd">In Situ Land-based Platforms - Ground-based observations</subject>
+      <subject type="gcmd">In Situ Land-based Platforms - Weather stations/Networks</subject>
+      <subject type="anzsrc-for">0401</subject>
+      <subject type="anzsrc-for">0406</subject>
+      <subject type="anzsrc-for">0501</subject>
+      <subject type="anzsrc-for">0503</subject>
+      <subject type="anzsrc-for">0602</subject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-26</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data........................</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Long Term Ecological Monitoring Datasets</namePart>
+      </name>
+      <name type="abbrev">
+        <namePart>LTERN</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;LTERN draws together a range of datasets from existing long-term ecological monitoring programs. The collection comprises datasets from 12 ecological plot networks across Australia that have been actively monitored for several years and in some cases decades. These plot networks span a number of ecosystems including tropical savannas, tall eucalypt forests, mallee woodlands and shrublands, alpine regions, and deserts. They also cover multiple land tenures and land uses including plantation forestry, conservation, restoration, tourism and agriculture.&amp;lt;/p&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-5</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-7</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data............................</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>AusCover Remote Sensing Data Facility</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;The AusCover facility provides a national expert network and a data delivery service for provision of Australian biophysical remote sensing data time-series, continental-scale map products, and selected high-resolution datasets over TERN sites. Coordinated by the CSIRO's Marine and Atmospheric Research Division, AusCover supports a nationally consistent approach to the delivery and calibration/validation of key current and future core satellite-derived datasets. The primary goal is to assist in the production of ecosystem science data products designed specifically for Australian conditions. This is done by connecting relevant remote sensing science groups and their activities, providing infrastructure to make the connection and support data collection, calibration, validation and associated technical documentation.&amp;lt;/p&amp;gt;</description>
+      <description type="brief">&amp;lt;h5&amp;gt;The AusCover facility provides access to remote sensing data and derived products, associated with land-surface characteristics and biophysical variables derived from satellite and airborne imagery. The facility also provides access to a wide, national network of experts in the field, as well as field methodology protocols and in-situ data for use in ecosystem science and natural resources management.&amp;lt;/h5&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/CSIROMarineandAtmosphericResearch</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">geoscientificInformation</subject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-27</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data............................</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>AusCover Remote Sensing Data Collection</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;The AusCover data collections focus on land-surface characteristics and biophysical variables derived from satellite and airborne imagery.&amp;lt;/p&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-7</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-for" termIdentifier="INFORMATION SYSTEMS">0806</subject>
+      <subject type="anzsrc-seo" termIdentifier="COMPUTER SOFTWARE AND SERVICES">8902</subject>
+      <subject type="anzsrc-seo" termIdentifier="ECOSYSTEM ASSESSMENT AND MANAGEMENT">9605</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-6</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data....................</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>The Long Term Ecological Research Network</namePart>
+      </name>
+      <name type="abbrev">
+        <namePart>LTERN</namePart>
+      </name>
+      <description type="logo">http://www.ltern.org.au/templates/ltern/images/logo.png</description>
+      <description type="brief">The Long Term Ecological Research Network (LTERN) integrates key established plot 
+      networks across Australia to tackle critical questions associated with the impacts of disturbance on Australian ecosystems. LTERN brings together some of Australia’s leading ecologists. Formally established in 2012, LTERN draws together a range of existing long-term ecological monitoring programs to examine Australian ecosystems in new ways.LTERN is composed of 12 ecological plot networks across Australia that have been actively monitored for several years and in some cases decades. These plot networks span a number of ecosystems including tropical savannas, tall eucalypt forests, mallee woodlands and shrublands, alpine regions, and deserts. The networks also cover multiple land tenures and land uses including plantation forestry, conservation, restoration, tourism and agriculture.
+      These networks are designed to monitor biodiversity and better understand disturbance regimes associated with fire, 
+      logging, livestock grazing, invasive species, extreme weather events and climate change.</description>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Australian Supersite Network">
+    <key>lloyd.187</key>
+    <originatingSource type="">http://www.tern-supersites.net.au....</originatingSource>
+    <collection type="dataset" dateModified="2014-08-19">
+      <name type="primary">
+        <namePart>Vertebrate Fauna Biodiversity Monitoring, Far North Queensland Rainforest SuperSite, CTBCC, LU9A, 2009-2011</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;Monitoring of distributional and abundance data for Australian tropical rainforest vertebrates is required to inform a wide range of comparative studies on the determinants of biodiversity and assess the impacts of global climate change. The data set here serves as a single monitoring transect for which data was collected using standardised survey techniques to assess distribution and abundance of vertebrates. It is part of a larger monitoring project that bisects latitudinal and elevational gradients across 5 mountain ranges in the Wet Tropics region. A monitory transect is represented by 6 points along a 1 km site for which amphibians, reptiles, birds and mammals are surveyed. The dataset here represents the monitoring at 900 m asl on Mt Edith in the Lamb Range Uplands.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement rightsUri="">Conditions of release of this data are as follows:  (1)        Transfer of any data between CTBCC and RESEARCHER NAME does not        imply the transfer of rights to publication of the data.        Permission in writing must be sought from the Principal        Investigator before submitting any works for publication and        RESEARCHER NAME agrees to involve the Principal Investigator in        the analysis, writing and co-authorship of results where        appropriate. (2) Any published work using this data must        acknowledge the CTBCC in the following way - &amp;quot;The authors        acknowledge the Centre for Tropical Biodiversity and Climate        Change, James Cook University for provision of data used in this        analysis&amp;quot;. (3) A copy of any publication using this data        must be supplied to the CTBSS within 6 months of the date of publication.</rightsStatement>
+      </rights>
+      <identifier type="local">lloyd.187</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.tern-supersites.net.au/knb/metacat/lloyd.187/asn</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="UTC">2009</date>
+          <date type="dateTo" dateFormat="UTC">2012</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">145.700973,-17.15896</spatial>
+      </coverage>
+      <relatedObject>
+        <key>urn:person:www.tern-supersites.net.au:StephenWilliams</key>
+        <relation type="isManagedBy"/>
+        <relation type="hasAssociationWith">
+          <description>Principal Investigator</description>
+        </relation>
+        <relation type="hasAssociationWith">
+          <description>Contact</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-24</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-4</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="local">CTBCC</subject>
+      <subject type="local">Climate Change</subject>
+      <subject type="local">Wet Tropics</subject>
+      <subject type="local">Biodiversity</subject>
+      <subject type="local">NERP</subject>
+      <subject type="local">Mt Edith</subject>
+      <subject type="local">Lamb Range</subject>
+      <subject type="local">Williams</subject>
+      <subject type="local">FNQ Rainforest</subject>
+      <subject type="local">Far North Queensland</subject>
+      <subject type="anzsrc-for">0602</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Supersite Network">
+    <key>lloyd.466</key>
+    <originatingSource type="">http://www.tern-supersites.net.au....</originatingSource>
+    <collection type="dataset" dateModified="2014-05-05">
+      <name type="primary">
+        <namePart>Soil Pit Data, Water Content and Temperature, Far North Queensland Rainforest SuperSite, Robson Creek, 2013</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;Three types of soil monitoring probes were installed to measure water tension, volumetric water content, and average soil temperature. Columns in the pit are located at corners of a 1 x 1 m square: I - west corner, II - south corner, III - east corner. Four depths were reached: -2.0 m, -1.5 m, -0.75 m and -0.1 m.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement rightsUri="">This data is under delayed release. The data will be released when Quality Control/Quality Assurance procedures have been completed, this will be achieved by 30/12/2013. To request future access please contact Michael.Liddell@jcu.edu.au.</rightsStatement>
+      </rights>
+      <identifier type="local">lloyd.466</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.tern-supersites.net.au/knb/metacat/lloyd.466/asn</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="UTC">2013-01-01</date>
+          <date type="dateTo" dateFormat="UTC">2013-04-04</date>
+        </temporal>
+        <spatial type="iso19139dcmiBox">northlimit=-17.125; southlimit=-17.7; westlimit=144.875; eastLimit=145.5; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>urn:person:www.tern-supersites.net.au:MichaelLiddell</key>
+        <relation type="isManagedBy"/>
+        <relation type="hasAssociationWith">
+          <description>Contact</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-24</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-4</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="local">soil pit</subject>
+      <subject type="local">soil</subject>
+      <subject type="local">soil monitoring probes</subject>
+      <subject type="local">Robson Creek</subject>
+      <subject type="local">FNQ Rainforest</subject>
+      <subject type="local">Far North Queensland</subject>
+      <subject type="anzsrc-for">0503</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Supersite Network">
+    <key>TERN-NC-4</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data....</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>Australian Supersite Network</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;The &amp;lt;a href="http://www.tern-supersites.net.au/" target="_blank"&amp;gt;Australian SuperSite Network&amp;lt;/a&amp;gt; (ASN) is a national network of multidisciplinary ecosystem observatories. The ASN includes ten SuperSites that each represent a significant Australian biome. The network covers all States and Territories and spans a wide range of environmental conditions.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Each SuperSite hosts an &amp;lt;a href="http://www.tern.org.au/OzFlux-pg17729.html" target="_blank"&amp;gt;OzFlux&amp;lt;/a&amp;gt; tower, and researchers also undertake intensive collection of various ecosystem measurements including detailed data sets on flora, fauna and biophysical processes. Through this work, the ASN aims to improve our understanding of ecosystem response to environmental change. Work underway throughout the ASN also complements the capabilities of the &amp;lt;a href="http://www.tern.org.au/Long-Term-Ecological-Research-Network-pg17872.html" target="_blank"&amp;gt;Long-Term Ecological Research Network&amp;lt;/a&amp;gt; (LTERN).&amp;lt;/p&amp;gt;</description>
+      <identifier type="uri">http://www.tern-supersites.net.au/</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.tern-supersites.net.au/</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isFundedBy"/>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0078</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-3</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data....................</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>TERN Eco-informatics Facility</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;The Eco-informatics Facility collects ecological “plot” data (including quadrats, transects, pitfall traplines, cage trap arrays, and other systematic collection methods), making this data discoverable and freely accessible at the finest level of detail available, together with extra information about the context of data collection. This opens up vast new opportunities for assessing re-purpose and enabling informed re-use of data. In doing this, the Australian ecosystem science community is able to achieve greater returns on the investment in data collection and also use the wealth of data available to address national challenges in ecology.&amp;lt;/p&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/qld.gov.au/corveg</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/wa.gov.au/ravensthorpe</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>GVH4v3YLysc0iCRBeIsKlGubLyGS2z7zlEuGyiiWBkNJNuaS2ste</key>
+        <relation type="hasAssociationWith">
+          <url>http://shared.ecoinformatics.org.au/shared-web/login</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsWA</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsVIC</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsSA</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsTAS</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsNSW</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsQld</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsNT</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>adelaide.edu.au/party/universityofadelaide/20110608</key>
+        <relation type="isManagedBy">
+          <url>http://www.adelaide.edu.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/service-01</key>
+        <relation type="hasAssociationWith">
+          <url>http://www.soils2satellites.org.au/ala-soils2sat/login/auth</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>bu1hlLoUF72Z54Qu9Z6q9TVwxD6j5Km64eefPt0lrTamNQHNGD4F</key>
+        <relation type="hasAssociationWith">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-for" termIdentifier="INFORMATION SYSTEMS">0806</subject>
+      <subject type="anzsrc-seo" termIdentifier="COMPUTER SOFTWARE AND SERVICES">8902</subject>
+      <subject type="anzsrc-seo" termIdentifier="ECOSYSTEM ASSESSMENT AND MANAGEMENT">9605</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="OzFlux: Australian and New Zealand Flux Research and Monitoring">
+    <key>MON399d1cdc-a788-4a05-9f01-d3dcbcafdf8d</key>
+    <originatingSource type="">http://www.ozflux.org.au........</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>OzFlux Ecosystem Exchange Research Network</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;OzFlux, a facility of the Terrestrial Ecosystem Research Network (TERN), has been established to provide the Australian, New Zealand and global ecosystem research communities with nationally consistent observations of energy, carbon and water exchange between the atmosphere and key Australian and New Zealand ecosystems.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;OzFlux is part of an international network of over 500 flux stations that is designed to provide continuous, long-term micro meteorological measurements to monitor the state of ecosystems globally.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The OzFlux purpose is:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;To understand mechanisms controlling exchanges of carbon, water vapour and energy between terrestrial ecosystems and the atmosphere over a range of time and space scales.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;To provide data on carbon and water balances of key ecosystems for model testing.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;To provide information to validate estimates of net primary productivity, evaporation, and energy absorption using remotely sensed radiance data.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;To provide data to validate new developments in micrometeorological theory for fluxes and air flows in complex terrain.&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;</description>
+      <identifier type="local">MON399d1cdc-a788-4a05-9f01-d3dcbcafdf8d</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.ozflux.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="text">CSIRO Marine and Atmospheric Research, Pye Laboratory, Clunies Ross Street, ACTON, ACT 2600</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <subject type="gcmd">In Situ Land-based Platforms - Fixed Observation Stations</subject>
+      <subject type="gcmd">In Situ Land-based Platforms - Ground-based observations</subject>
+      <subject type="gcmd">In Situ Land-based Platforms - Weather stations/Networks</subject>
+      <subject type="anzsrc-for">0401</subject>
+      <subject type="anzsrc-for">0406</subject>
+      <subject type="anzsrc-for">0501</subject>
+      <subject type="anzsrc-for">0503</subject>
+      <subject type="anzsrc-for">0602</subject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Australian Coastal Ecosystems Facility">
+    <key>TERN-NC-21</key>
+    <originatingSource type="">https://demo.ands.org.au/registry//orca/register_my_data................................................</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Australian Coastal Ecosystems Data Collection</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>ACEF</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>TERN Coasts</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The Australian Coastal Ecosystems Facility (ACEF) collects and distributes key coastal datasets for use in policy and management decisions about the protection and use of Australia's coastal assets, both marine and freshwater.&amp;lt;/p&amp;gt;</description>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>team@acef.tern.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>csiro:PartyGroup</key>
+        <relation type="isManagedBy"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>102.100.100/10064</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/1c77a89f-a315-487d-bd35-3345a6f9c48f</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/7dff54b8-1612-4fbf-9751-40178f1087ce</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/da023c22-08a7-46a5-a415-c7bc29d213f5</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050206</subject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050209</subject>
+      <relatedInfo type="website">
+        <identifier type="uri">http://acef.tern.org.au</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Coastal Ecosystems Facility">
+    <key>dixVvbpqjA1te4wsPieS6zGgZqwv0qS3zfOVh4bqu2KzW7RCfWlc</key>
+    <originatingSource type="">https://demo.ands.org.au/registry//orca/register_my_data........</originatingSource>
+    <activity type="program" dateModified="2013-11-29T06:00:38Z">
+      <name type="primary">
+        <namePart>Australian Coastal Ecosystems Facility</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>ACEF</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>TERN Coasts</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The Australian Coastal Ecosystems Facility (ACEF) collects and distributes key coastal datasets for use in policy and management decisions about the protection and use of Australia's coastal assets, both marine and freshwater.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;ACEF aims to link past and ongoing research, future data collection, and the integration of knowledge by:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;establishing a coastal community of practice to bring together researchers, managers, industry and the community to identify key coastal datasets, improve technologies, and identify funding opportunities;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;identifying national datasets that need to be collected, and funding strategic research that addresses key gaps in datasets;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;providing an overview of coastal research efforts and early findings around Australia, and&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;enabling better digital access to observational data, and to analysis and visualisation methods.&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;</description>
+      <description type="logo">&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://acef.tern.org.au/sites/all/themes/acef/logo.png&amp;quot; alt=&amp;quot;ACEF logo&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;</description>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>team@acef.tern.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Contributor:CSIRO</key>
+        <relation type="isManagedBy"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-ACEF</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>102.100.100/10064</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/5935f698-5653-447b-a3a9-8a4934eb76f7</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/cc7e4fb0-ae3c-40b9-9af3-c29d575bc1bc</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/da023c22-08a7-46a5-a415-c7bc29d213f5</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/3ea97d80-30d6-4d6e-99a8-de5b199e9424</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/1876ed37-3503-434e-82c3-0f81fa4eb64f</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/7dff54b8-1612-4fbf-9751-40178f1087ce</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/1c77a89f-a315-487d-bd35-3345a6f9c48f</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050206</subject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050209</subject>
+      <relatedInfo type="website">
+        <identifier type="uri">http://acef.tern.org.au</identifier>
+      </relatedInfo>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2011-06-30T14:00:00Z</startDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="NCRIS">
+    <key>TERN-NC-0</key>
+    <originatingSource type="">https://services.ands.org.au/sandbox/orca............</originatingSource>
+    <activity type="program">
+      <name type="abbreviated">
+        <namePart>TERN</namePart>
+      </name>
+      <name type="primary">
+        <namePart>Terrestrial Ecosystem Research Network</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;A nationally-consistent approach to collecting, managing and sharing time-series datasets is required to meet the needs of terrestrial ecosystem research and natural resource management in Australia. The NCRIS and EIF investments in TERN will establish a national, collaborative infrastructure to enable ecosystem science communities to store, search and analyse long-term data sets on atmospheric, terrestrial, aquatic and coastal environments. The purpose of TERN is to establish the necessary cooperative and data frameworks for a national, collaborative approach to ecosystem infrastructure and research. It will provide the necessary organisational arrangements, networks and methodologies for systematic, coordinated national data collection. TERN will comprise governance, data management and modelling facilities, a collection of ecosystem science data portals and principles for shared use to build on existing infrastructure investments and collaborations. TERN’s objectives are to: * provide a national institutional infrastructure network for terrestrial ecosystem research and management * coordinate national observational networks to provide valuable information about our terrestrial ecosystems and to encourage research collaboration and cooperation nationally * facilitate improved access, including by electronic means, for researchers to quality assured observational data so questions about our environment can be answered * identify future needs, by involving the terrestrial ecosystem research community, for research and strengthen the capability of the terrestrial ecosystem community across Australia so we are better able to respond to questions of national significance.&amp;lt;/p&amp;gt;</description>
+      <description type="brief">&amp;lt;p&amp;gt;TERN (an NCRIS Capability) is a network of ecosystem scientists and infrastructure for the collection, cataloguing, storage and sharing of long-term ecosystem research data sets for science and management applications.&amp;lt;/p&amp;gt;</description>
+      <description type="logo">&amp;lt;p&amp;gt;http://www.auscover.org.au/images/ternlogo2-110.png&amp;lt;/p&amp;gt;</description>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.tern.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ncris.innovation.gov.au/activity/1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedInfo>
+        <title>LTERN Web Site</title>
+        <identifier type="uri">http://www.ltern.org.au</identifier>
+      </relatedInfo>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-1</key>
+    <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data............</originatingSource>
+    <collection type="collection" dateModified="2014-03-05T06:09:18Z" dateAccessioned="2014-03-05T06:09:29Z">
+      <name type="primary">
+        <namePart>Australian Terrestrial Ecosystem Research Collection (TERN)</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;&amp;lt;img style="float: right; margin-right: 10px; margin-left: 10px;" src="http://tern.org.au/rs/7/sites/998/custom_files/tpl_images/logo.jpg" alt="" /&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The Terrestria&amp;lt;wbr /&amp;gt;l Ecosystem Research Network (TERN) collection consists of datasets from different ecosystem science discipline&amp;lt;wbr /&amp;gt;s.&amp;lt;br /&amp;gt;The collection covers the Australian geographic region and includes: Australian biophysica&amp;lt;wbr /&amp;gt;l map and remote sensing time-serie&amp;lt;wbr /&amp;gt;s data products, and associated field calibratio&amp;lt;wbr /&amp;gt;n and validation data. Energy, water and carbon dioxide fluxes data from flux towers, current as well as histroical informatio&amp;lt;wbr /&amp;gt;n like flora, fauna and biophysica&amp;lt;wbr /&amp;gt;l processes from plots, sites, and transects across Australian ecosystems&amp;lt;wbr /&amp;gt;, national survey datasets for flora and fauna, high-spati&amp;lt;wbr /&amp;gt;al resolution grids containing key soil attributes and landscape features, and a range of coastal ecosystem datasets.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <licence type="CC-BY" rightsUri="http://www.tern.org.au/datalicence">TERN-BY; TERN-BY-SA; TERN-BY-ND</licence>
+      </rights>
+      <identifier type="uri">http://portal.tern.org.au/</identifier>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>tern@uq.edu.au</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://portal.tern.org.au</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Goddard Building (Bld #8)&amp;lt;br /&amp;gt;The University of Queensland&amp;lt;br /&amp;gt;St Lucia QLD 4072, Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+      </coverage>
+      <relatedObject>
+        <key>csiro:PartyGroup</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0094</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0171</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-8</key>
+        <relation type="isSupportedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au-institution-0078</key>
+        <relation type="isEnrichedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0501</subject>
+      <subject type="anzsrc-for">0503</subject>
+      <subject type="anzsrc-for">0602</subject>
+      <subject type="anzsrc-for">0406</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-3</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data....................</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>TERN Eco-informatics Facility</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;The Eco-informatics Facility collects ecological “plot” data (including quadrats, transects, pitfall traplines, cage trap arrays, and other systematic collection methods), making this data discoverable and freely accessible at the finest level of detail available, together with extra information about the context of data collection. This opens up vast new opportunities for assessing re-purpose and enabling informed re-use of data. In doing this, the Australian ecosystem science community is able to achieve greater returns on the investment in data collection and also use the wealth of data available to address national challenges in ecology.&amp;lt;/p&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/qld.gov.au/corveg</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/wa.gov.au/ravensthorpe</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>GVH4v3YLysc0iCRBeIsKlGubLyGS2z7zlEuGyiiWBkNJNuaS2ste</key>
+        <relation type="hasAssociationWith">
+          <url>http://shared.ecoinformatics.org.au/shared-web/login</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsWA</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsVIC</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsSA</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsTAS</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsNSW</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsQld</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/collection/gov.au/abares/gcrsNT</key>
+        <relation type="hasOutput">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>adelaide.edu.au/party/universityofadelaide/20110608</key>
+        <relation type="isManagedBy">
+          <url>http://www.adelaide.edu.au/</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>aekos.org.au/service-01</key>
+        <relation type="hasAssociationWith">
+          <url>http://www.soils2satellites.org.au/ala-soils2sat/login/auth</url>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>bu1hlLoUF72Z54Qu9Z6q9TVwxD6j5Km64eefPt0lrTamNQHNGD4F</key>
+        <relation type="hasAssociationWith">
+          <url>http://www.portal.aekos.org.au/</url>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-for" termIdentifier="INFORMATION SYSTEMS">0806</subject>
+      <subject type="anzsrc-seo" termIdentifier="COMPUTER SOFTWARE AND SERVICES">8902</subject>
+      <subject type="anzsrc-seo" termIdentifier="ECOSYSTEM ASSESSMENT AND MANAGEMENT">9605</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-7</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data............................</originatingSource>
+    <activity type="program">
+      <name type="primary">
+        <namePart>AusCover Remote Sensing Data Facility</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;The AusCover facility provides a national expert network and a data delivery service for provision of Australian biophysical remote sensing data time-series, continental-scale map products, and selected high-resolution datasets over TERN sites. Coordinated by the CSIRO's Marine and Atmospheric Research Division, AusCover supports a nationally consistent approach to the delivery and calibration/validation of key current and future core satellite-derived datasets. The primary goal is to assist in the production of ecosystem science data products designed specifically for Australian conditions. This is done by connecting relevant remote sensing science groups and their activities, providing infrastructure to make the connection and support data collection, calibration, validation and associated technical documentation.&amp;lt;/p&amp;gt;</description>
+      <description type="brief">&amp;lt;h5&amp;gt;The AusCover facility provides access to remote sensing data and derived products, associated with land-surface characteristics and biophysical variables derived from satellite and airborne imagery. The facility also provides access to a wide, national network of experts in the field, as well as field methodology protocols and in-situ data for use in ecosystem science and natural resources management.&amp;lt;/h5&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isPartOf"/>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://acef.tern.org.au/CSIROMarineandAtmosphericResearch</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">geoscientificInformation</subject>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>TERN-NC-24</key>
+    <originatingSource type="">TERN National Collection (TERN-NC)........</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Australian Supersite Network Data Collection </namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;A SuperSite is an intensive ecosystem observatory set up to examine the status and processes of one of Australia’s many ecosystems. Each SuperSite comprises a main field site that takes vegetative, faunal and biophysical measurements and works over at least one gradient (topographical or ecological) transect in a typical and important biome in Australia. The scale of the SuperSites (10–200 km) is larger than a plot but smaller than a Long-term Ecological Research (LTER) plot system. A SuperSite uses existing and recently deployed environmental monitoring installations to collect comprehensive sets of long-term ecosystem data of high temporal and spatial resolution. Core research conducted at a SuperSite includes measurements from micrometeorological flux stations (OzFlux), plant physiological measurements, as well as long-term vegetation and fauna monitoring.&amp;lt;/p&amp;gt;</description>
+      <relatedObject>
+        <key>TERN-NC-2</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-1</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for" termIdentifier="ECOLOGICAL APPLICATIONS">0501</subject>
+      <subject type="anzsrc-for" termIdentifier="ENVIRONMENTAL SCIENCE AND MANAGEMENT">0502</subject>
+      <subject type="anzsrc-seo" termIdentifier="ECOSYSTEM ASSESSMENT AND MANAGEMENT">9605</subject>
+      <subject type="anzsrc-seo" termIdentifier="ENVIRONMENTAL AND NATURAL RESOURCE EVALUATION">9606</subject>
+      <subject type="anzsrc-seo" termIdentifier="FLORA, FAUNA AND BIODIVERSITY">9608</subject>
+      <subject type="anzsrc-seo" termIdentifier="CLIMATE AND CLIMATE CHANGE">9603</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Supersite Network">
+    <key>datalibrarian.184</key>
+    <originatingSource type="">http://www.tern-supersites.net.au....</originatingSource>
+    <collection type="dataset" dateModified="2014-09-10">
+      <name type="primary">
+        <namePart>Nitrous Oxide (N20) emissions from dryland grains industry crop, manual chamber. Tamworth, NSW, 2009-2011 [Theme 5: Reducing emissions through improved NUE]</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;Data from measured N2O emissions of dryland grains from manual chambers in Tamworth, northwest NSW, Australia, 2009-2011.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement rightsUri="">Please contact owner for access to data.</rightsStatement>
+      </rights>
+      <identifier type="local">datalibrarian.184</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.tern-supersites.net.au/knb/metacat/datalibrarian.184/asn</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="UTC">2009</date>
+          <date type="dateTo" dateFormat="UTC">2011</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">150.36,-31.3</spatial>
+      </coverage>
+      <relatedObject>
+        <key>urn:person:www.tern-supersites.net.au:GraemeSchwenke</key>
+        <relation type="isManagedBy"/>
+        <relation type="hasAssociationWith">
+          <description>Contact</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>urn:person:www.tern-supersites.net.au:SiobhannMcCafferty</key>
+        <relation type="hasAssociationWith">
+          <description>Custodian/Steward</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-24</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-4</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>TERN-NC-0</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="local">Dryland crops</subject>
+      <subject type="local">Fieldpea</subject>
+      <subject type="local">Chickpea</subject>
+      <subject type="local">Canola</subject>
+      <subject type="local">Fababean</subject>
+      <subject type="local">N2O</subject>
+      <subject type="local">Nitrous oxide</subject>
+      <subject type="local">Manual Chambers</subject>
+      <subject type="local">Tamworth</subject>
+      <subject type="local">NSW</subject>
+      <subject type="anzsrc-for">0502</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>coesra.org.au</key>
+    <originatingSource type="">http://demo.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <service type="generate">
+      <name type="primary">
+        <namePart>CoESRA</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;Collaborative Environment for Ecosystem Science research and analysis (CoESRA)&amp;lt;span style=&amp;quot;color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: #ffffff;&amp;quot;&amp;gt;will provide a virtual environment for ecosystem scientist to orchestrate, compose and execute experiments as repeatable workflows. Kepler is used as a composition, orchestration and execution engine. The CoESRA will also provide access to some of the data sources related to ecosystem &amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;</description>
+      <identifier type="uri">https://test.coesra.org.au</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>coesra.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ncris.innovation.gov.au/activity/6</key>
+        <relation type="hasAssociationWith">
+          <description>TERN</description>
+        </relation>
+      </relatedObject>
+      <accessPolicy>http://www.coesra.org.au/#/accesspolicy</accessPolicy>
+    </service>
+  </registryObject>
+
+
+<registryObject group="Terrestrial Ecosystem Research Network">
+    <key>coesra.org.au</key>
+    <originatingSource type="">http://demo.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <service type="generate">
+      <name type="primary">
+        <namePart>CoESRA</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;Collaborative Environment for Ecosystem Science research and analysis (CoESRA)&amp;lt;span style=&amp;quot;color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: #ffffff;&amp;quot;&amp;gt;will provide a virtual environment for ecosystem scientist to orchestrate, compose and execute experiments as repeatable workflows. Kepler is used as a composition, orchestration and execution engine. The CoESRA will also provide access to some of the data sources related to ecosystem &amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;</description>
+      <identifier type="uri">https://test.coesra.org.au</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>coesra.org.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ncris.innovation.gov.au/activity/6</key>
+        <relation type="hasAssociationWith">
+          <description>TERN</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">0501</subject>
+      <accessPolicy>http://www.coesra.org.au/#/accesspolicy</accessPolicy>
+    </service>
+  </registryObject>
+</registryObjects>
